@@ -3,43 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/styles.css">
   <title>Frontend Mentor | Single-page design portfolio</title>
 </head>
 <body>
-
-  Free Consultation
-
-  Design solutions made easy
-
-  With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.
-
-  Graphic Design
-  UI/UX
-  Apps
-  Photography
-  Illustrations
-  Motion Graphics
-
-  I’m Amy, and I’d love to work on your next project
-
-  I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
-  to complete mobile apps. I’m also handy with a camera!
-
-  Free Consultation
-
-  My Work
-
-  Book a call with me
-
-  I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
-  free consultation. Then we can move forward from there.
-
-  Free Consultation
-
-  Free Consultation
-
+<header>
+  <img class="logo" src="images/logo.svg">
+  <button class="title">Free Consultation</button>
+</header>
+<main>
+  <h1>Design solutions made easy</h1>
+  <p class="advert-txt">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
+  <div class="grid">
+    <div class="graphic big">
+      <img src="images/pattern-graphic-design.svg" alt="">
+      <h3>Graphic Design</h3>
+    </div>
+    <div class="user small">
+      <img src="images/pattern-ui-ux.svg" alt="">
+      <h3>UI/UX</h3>
+    </div>
+    <div class="apps small">
+      <img src="images/pattern-apps.svg" alt="">
+      <h3>Apps</h3>
+    </div>
+    <div class="photography standard">
+      <img src="images/pattern-photography.svg" alt="">
+      <h3>Photography</h3>
+    </div>
+    <div class="illustrations standard">
+      <img src="images/pattern-illustrations.svg" alt="">
+      <h3>Illustrations</h3>
+    </div>
+    <div class="graphics standard">
+      <img src="images/pattern-motion-graphics.svg" alt="">
+      <h3>Motion Graphics</h3>
+    </div>
+  </div>
+  <div class="creator">
+    <img class="amy-pic" src="images/image-amy.webp" alt="">
+    <div class="creator-txt-div">
+    <h3 class="creator-txt">I’m Amy, and I’d love to work on your next project</h3>
+      <p>I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
+        to complete mobile apps. I’m also handy with a camera!</p>
+        <button>Free Consultation</button>
+  </div>
+  </div>
+  <div class="work-div">
+    <h3 class="work-title">My Work</h3>
+    <div class="work-demos">
+      <img class="first-slide" src="images/image-slide-1.jpg">
+      <img class="second-slide" src="images/image-slide-2.jpg">
+      <img class="third-slide" src="images/image-slide-3.jpg">
+      <img class="fourth-slide" src="images/image-slide-4.jpg">
+      <img class="fifth-slide" src="images/image-slide-5.jpg">
+    </div>
+  </div>
+<div class="call">
+  <h3 class="call-book">Book a call with me</h3>
+  <p class="call-txt">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
+    free consultation. Then we can move forward from there.</p>
+    <button class="consult-btn">Free Consultation</button>
+</div>
+</main>
+<footer>
+  <img src="images/logo.svg" alt="">
+  <button>Free Consultation</button>
+</footer>
+<script src="js/script.js"></script>
 </body>
 </html>

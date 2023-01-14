@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amy-pic {
+    width: 75%;
+}
