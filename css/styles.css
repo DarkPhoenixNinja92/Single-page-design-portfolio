@@ -4,6 +4,13 @@ header {
     justify-content: space-between;
 }
 
+.title {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.8em;
+}
+
 .creator {
     display: flex;
     align-items: center;
