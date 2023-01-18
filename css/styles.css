@@ -20,3 +20,11 @@ header {
 .amy-pic {
     width: 75%;
 }
+
+.hide {
+    display: none;
+}
+
+.slides  {
+    width: 90vw;
+}
