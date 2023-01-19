@@ -11,10 +11,12 @@ header {
     padding: 0.8em;
 }
 
-.creator {
+.creator,.work-div {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .amy-pic {
@@ -27,4 +29,24 @@ header {
 
 .slides  {
     width: 90vw;
+}
+
+button {
+    border-radius: 15px;
+    padding: 0.6em 1em;
+}
+
+.creator-btn {
+    background-color: #EB7565;
+    color: #FFF7F0;
+}
+
+.slide-btn-div {
+    margin-top: 1.5em;
+}
+
+#left,#right {
+    border-radius: 50%;
+    background-color: black;
+    padding: 2em;
 }
