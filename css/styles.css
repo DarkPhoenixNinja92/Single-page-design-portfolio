@@ -1,13 +1,23 @@
-header {
+header, footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+main {
+    text-align: center;
+}
+
+.advert-txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .title {
     background-color: #000;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 0.8em;
 }
 
@@ -36,7 +46,7 @@ button {
     padding: 0.6em 1em;
 }
 
-.creator-btn {
+.creator-btn,.consult-btn {
     background-color: #EB7565;
     color: #FFF7F0;
 }
@@ -49,4 +59,29 @@ button {
     border-radius: 50%;
     background-color: black;
     padding: 2em;
+}
+
+.call {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 2.5em;
+    padding: 1em;
+}
+
+.call button {
+    margin: 2em auto 2em auto;
+}
+
+footer {
+    margin-top: 3em;
+}
+
+footer button {
+    background-color: #000;
+    color: #FFF7F0;
+}
+
+@media (min-width: 768px) {
+
 }
