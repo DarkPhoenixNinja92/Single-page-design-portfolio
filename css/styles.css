@@ -67,6 +67,7 @@ button {
     color: white;
     margin-top: 2.5em;
     padding: 1em;
+    border-radius: 20px;
 }
 
 .call button {
@@ -83,5 +84,21 @@ footer button {
 }
 
 @media (min-width: 768px) {
+    .amy-pic {
+        width: 35%;
+    }
 
+    .creator {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .creator-btn {
+        position: relative;
+        left: 12em;
+    }
+
+    .creator-txt-div {
+        margin-left: 1.3em;
+    }
 }
