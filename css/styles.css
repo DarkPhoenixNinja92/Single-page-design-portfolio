@@ -39,6 +39,10 @@ main {
     grid-column-end: 4;
 }
 
+.small h3, .standard h3 {
+    font-size: 20px;
+}
+
 .big {
     background-color: #755CDE;
     width: 95vw;
