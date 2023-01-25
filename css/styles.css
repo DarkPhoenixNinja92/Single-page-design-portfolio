@@ -106,6 +106,16 @@ main {
     width: 45vw;
 }
 
+.small-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.user {
+    margin-right: 1em;
+}
+
 .big h3 {
     position: relative;
     right: 2.3em;
@@ -191,5 +201,38 @@ footer button {
 
     .creator-txt-div {
         margin-left: 1.3em;
+    }
+
+    .big {
+        width: 45vw;
+    }
+    .big img {
+        width: 35%;
+    }
+
+    .small {
+        width: 20vw;
+    }
+
+    .small-div {
+        position: relative;
+        left: 21em;
+        bottom: 29em;
+    }
+
+    .standard {
+        width: 47vw;
+    }
+
+    .illustrations {
+        position: relative;
+        left: 50vw;
+        bottom: 51.5vh;
+    }
+
+    .graphics {
+        position: relative;
+        left: 50vw;
+        bottom: 52vh;
     }
 }
