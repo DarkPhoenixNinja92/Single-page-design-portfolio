@@ -205,6 +205,8 @@ footer button {
 
     .big {
         width: 45vw;
+        position: relative;
+        height: 50vh;
     }
     .big img {
         width: 35%;
@@ -217,7 +219,7 @@ footer button {
     .small-div {
         position: relative;
         left: 21em;
-        bottom: 29em;
+        bottom: 40em;
     }
 
     .standard {
@@ -227,12 +229,29 @@ footer button {
     .illustrations {
         position: relative;
         left: 50vw;
-        bottom: 51.5vh;
+        bottom: 65.5vh;
     }
 
     .graphics {
         position: relative;
         left: 50vw;
-        bottom: 52vh;
+        bottom: 64.5vh;
+    }
+
+    .photography {
+        position: relative;
+        left: 50vw;
+        bottom: 26.5vh;
+    }
+
+    .creator  {
+        margin-top: -35em;
+    }
+
+    @media (min-width: 1440px) {
+        .title {
+            position: relative;
+            right: 4em;
+        }
     }
 }
