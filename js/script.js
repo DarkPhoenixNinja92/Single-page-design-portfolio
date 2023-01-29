@@ -9,54 +9,24 @@ const btnLeft = document.getElementById('left');
 const btnRight = document.getElementById('right');
 
 let currentImg = 0;
-const imgArr = [0,1,2,3,4];
+const imgArr = ["images/image-slide-1.jpg",
+                "images/image-slide-2.jpg",
+                "images/image-slide-3.jpg",
+                "images/image-slide-4.jpg",
+                "images/image-slide-5.jpg"];
 
 btnRight.addEventListener('click', () => {
-    
-    if(currentImg == 0) {
-        image1.classList.add('hide');
-        image2.classList.remove('hide');
-        currentImg++;
-    } else if(currentImg == 1) {
-        image2.classList.add('hide');
-        image3.classList.remove('hide');
-        currentImg++;
-    } else if(currentImg == 2) {
-        image3.classList.add('hide');
-        image4.classList.remove('hide');
-        currentImg++;
-    } else if(currentImg == 3) {
-        image4.classList.add('hide');
-        image5.classList.remove('hide');
-        currentImg++;
-    } else if(currentImg == 4) {
-        image5.classList.add('hide');
-        image1.classList.remove('hide');
-        currentImg = 0;
-    }
+    if(currentImg <= imgArr.length) {
+    image1.setAttribute('src', imgArr[currentImg+1]);
+} else {
+    currentImg = 0;
+}
 });
 
 btnLeft.addEventListener('click', () => {
-    
-    if(currentImg == 0) {
-        image1.classList.add('hide');
-        image5.classList.remove('hide');
-        currentImg++;
-    } else if(currentImg == 1) {
-        image5.classList.add('hide');
-        image4.classList.remove('hide');
-        currentImg++;
-    } else if(currentImg == 2) {
-        image4.classList.add('hide');
-        image3.classList.remove('hide');
-        currentImg++;
-    } else if(currentImg == 3) {
-        image3.classList.add('hide');
-        image2.classList.remove('hide');
-        currentImg++;
-    } else if(currentImg == 4) {
-        image2.classList.add('hide');
-        image1.classList.remove('hide');
+    if(currentImg <= imgArr.length) {
+        image1.setAttribute('src', imgArr[currentImg+1]);
+    } else {
         currentImg = 0;
     }
-});
+    });
